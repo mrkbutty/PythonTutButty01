@@ -1,0 +1,32 @@
+Install Anaconda
+================
+
+Visit site: https://www.anaconda.com/download/
+
+* Select latest version 3+ package!
+     - Most new programmers should use latest python 3
+     - Python 2 still around and python 2.7 version is the best bridge to version 3
+* If upgrading run the "Anaconda Prompt" and type::
+
+     > conda update conda
+     > conda update anaconda
+
+* Clean up old Anaconda packages from prompt using::
+
+     > conda clean -a --dry-run
+     > conda clean -a -y
+
+* Rebuild Anaconda Start menu::
+
+     > "C:\Anaconda3\pythonw.exe" "C:\Anaconda3\Lib\_nsis.py" mkmenus
+
+* Anaconda is the most popular Data Science Python (and 'R') distribution
+* It is a distribtion and package management system containing 1000+ popular modules for python
+* Most noteable are:
+     - click (CLI interface)
+     - pandas (data wrangling)
+     - matplotlib + seaborn (charting)
+     - xlsxwriter (Excel file creation)
+     - click (CLI interface)
+        
+    

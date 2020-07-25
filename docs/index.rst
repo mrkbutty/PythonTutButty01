@@ -10,7 +10,7 @@ AGENDA:
 
 * Intro to Python
 * Installation and setup
-* First steps with Repl, Scripts, Jupyter (iPython)
+* First steps with Repl, Scripts, Jupyter (iPython), Thonny!
 * Core Language
 * Modules
 * Editors and IDE's

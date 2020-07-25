@@ -29,3 +29,4 @@ Creating and running a script
 
     > python hello.py
 
+* Now try using and stepping through (F7) with Thonny!

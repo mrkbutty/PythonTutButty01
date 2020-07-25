@@ -1,15 +1,15 @@
 Install Anaconda or Python
 ==========================
 
-| Download from: https://www.python.org/downloads/release/python-380/
 | Or https://www.anaconda.com/download/
 | Or install minimal: https://docs.conda.io/en/latest/miniconda.html
+| Download from: https://www.python.org/downloads/release/python-380/
 | (Note: installing with dual x login means that administrator install is prefered) 
 
-* Reccomend Python or Miniconda (they will need other packages installing)::
+* Reccomend Miniconda or Python (they will need other packages installing)::
 
+     > conda install jupyterlab click pandas matplotlib
      > for %i in (ipython,click,pandas) do pip install %i
-     > for %i in (jupyterlab,click,pandas) conda install %i
 
 * Select latest version 3+ package!
      - Most new programmers should use latest python 3
@@ -44,7 +44,7 @@ Install Anaconda or Python
 * Most noteable packges are:
      - click (CLI interface)
      - pandas (data wrangling)
-     - matplotlib + seaborn (charting)
+     - matplotlib + seaborn (charting - difficult to install with pip)
      - xlsxwriter (Excel file creation)
      - flask (lightweight web framework)
 

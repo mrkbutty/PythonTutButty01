@@ -1,5 +1,6 @@
 reveal.js/
 test.txt
+~$*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -103,3 +104,4 @@ ENV/
 
 # mypy
 .mypy_cache/
+~$PyTut1_Intro.pptx

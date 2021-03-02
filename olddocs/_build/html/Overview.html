@@ -1,0 +1,259 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Python Overview &mdash; Butty&#39;s Python Tutorial 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Install Anaconda" href="Installation.html" />
+    <link rel="prev" title="Welcome to Butty’s Python Tutorial" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Butty's Python Tutorial
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Python Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#zen-of-python">Zen of Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">Install Anaconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Repl.html">Using the Python repl</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Scripts.html">Creating and running a script</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Jupyter.html">iPython console (Interactive python)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Jupyter.html#jupyter-ipython-notebook">Jupyter (iPython) Notebook</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Butty's Python Tutorial</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Python Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Overview.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python-overview">
+<h1>Python Overview<a class="headerlink" href="#python-overview" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Scripting language, interpreted high-level programming language for general-purpose programming.</p></li>
+<li><p>Creator (BDFL - Benevolent Dictator For Life) Guido Von Rossum developed in the 1980’s, first release 1991.</p></li>
+<li><p>Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.</p></li>
+<li><p>Many versions of Python; CPython, PyPy, Stackless Python, MicroPython.</p></li>
+<li><p>Cross-compliers; Jython (Java Bytecode), IronPython (.NET), Cython (C, C++), Grumpy (by Google complies to Go), etc…</p></li>
+<li><p>CPython is written in C and compiles Python programs into intermediate bytecode which is executed by the Python Virtual Machine.</p></li>
+<li><p>CPython has a very large library (OS, GUI, Database, Network, Web, ML/AI, Scientific, Data Analytics, etc)</p></li>
+</ul>
+<hr class="docutils" />
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="zen-of-python">
+<h1>Zen of Python<a class="headerlink" href="#zen-of-python" title="Permalink to this headline">¶</a></h1>
+<p>Long time Pythoneer Tim Peters succinctly channels the BDFL’s
+guiding principles for Python’s design into 20 aphorisms,
+only 19 of which have been written down.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Beautiful is better than ugly.</p></li>
+<li><p>Explicit is better than implicit.</p></li>
+<li><p>Simple is better than complex.</p></li>
+<li><p>Complex is better than complicated.</p></li>
+<li><p>Flat is better than nested.</p></li>
+<li><p>Sparse is better than dense.</p></li>
+<li><p>Readability counts.</p></li>
+<li><p>Special cases aren’t special enough to break the rules.</p></li>
+<li><p>Although practicality beats purity.</p></li>
+<li><p>Errors should never pass silently.</p></li>
+<li><p>Unless explicitly silenced.</p></li>
+<li><p>In the face of ambiguity, refuse the temptation to guess.</p></li>
+<li><p>There should be one– and preferably only one –obvious way to do it.</p></li>
+<li><p>Although that way may not be obvious at first unless you’re Dutch.</p></li>
+<li><p>Now is better than never.</p></li>
+<li><p>Although never is often better than <em>right</em> now.</p></li>
+<li><p>If the implementation is hard to explain, it’s a bad idea.</p></li>
+<li><p>If the implementation is easy to explain, it may be a good idea.</p></li>
+<li><p>Namespaces are one honking great idea – let’s do more of those!</p></li>
+</ul>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Installation.html" class="btn btn-neutral float-right" title="Install Anaconda" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Welcome to Butty’s Python Tutorial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Mark Butterworth
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
